@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First JS</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+    <!-- <h1>Hello from Html</h1>
+    Enter Name<input type="text" id="fname"/><br/>
+    <span id="msg"></span><br/>
+    <button onclick="hello()">Click Me</button> -->
+
+    <form action="" onsubmit="return validate()">
+            Enter Name<input type="text" id="fname"/><br/>
+            <input type="submit" value="Register"><br/>
+            <span id="msg"></span>
+
+    </form>
+    <br/>
+    <form action="" onsubmit="return validateGender()">
+        <p>Please select your gender:</p>
+          <input type="radio" name="gender" value="male"> Male<br>
+          <input type="radio" name="gender" value="female"> Female<br>
+          <input type="radio" name="gender" value="other"> Other<br>
+          <input type="submit" value="Submit">
+          <span id="msg"></span>
+    </form>
+    <br/>
+    <p>Country</p>
+    <select name="Country">
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="Mexico">Mexico</option>
+            <option value="India">India</option>
+            <span id="msg"></span>
+          </select>
+    <h3>Hobbies:</h3>
+
+    <form action="/action_page.php">
+        <input type="checkbox" name="Hobby1" value="Knitting"> I like knitting<br>
+        <input type="checkbox" name="Hobby2" value="Playing Video games"> I like playing video games<br>
+        <input type="checkbox" name="Hobby3" value="Watching TV" checked> I like watching tv<br><br>
+        <span id="msg"></span>
+    <input type="submit" value="Submit">
+    </form>
+    
+    <script src="index.js">
+    </script>
+</body>
+</html>
