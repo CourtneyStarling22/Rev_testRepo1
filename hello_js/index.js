@@ -4,7 +4,7 @@ console.log("Hello Console")
 function hello() {
     var fname=document.getElementById("fname");
     //document.write("<h1>Hello "fname.value+"</h1>");
-    document.getElementById("msg").innerHTML="<b>Hello "+fname.value+"</b>";
+    ocument.getElementById("msg").innerHTML="<b>Hello "+fname.value+"</b>"
 }
 
 function validate(){
